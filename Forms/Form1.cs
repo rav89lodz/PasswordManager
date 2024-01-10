@@ -104,7 +104,7 @@ namespace PasswordManager
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.linkLabel1.LinkVisited = true;
-            System.Diagnostics.Process.Start("https://rch-software.pl/index.php?action=lic");
+            System.Diagnostics.Process.Start("https://github.com/rav89lodz/PasswordManager/blob/main/LICENSE");
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
